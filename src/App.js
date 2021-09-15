@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import React, { useState } from "react";
+import "./App.css";
 function App() {
+  const test = "echma";
+  const [query, setQuery] = useState("");
+  const [weather, setWeather] = useState({});
+  const search = async (evt) => {
+    const apiKey = "c6b3f1e08fefcd739701ca5124ccfa52";
+    let city = "London";
+    await fetch(
+      `https://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&appid=${apiKey}`
+    )
+      .then((res) => res.json())
+      .then((result) => {
+        setWeather(result);
+        setQuery("");
+        console.log(result);
+      });
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+        }}>
+        <input
+          type="text"
+          placeholder="Search..."
+          onChange={(e) => setQuery(e.target.value)}
+          value={query}
+        />{" "}
+        <input type="submit" value="Submit" onClick={search} />
+      </form>
+      {typeof weather.main != "undefined" ? (
+        <div>
+          <p>
+            {weather.name}, {weather.sys.country}
+          </p>
+          <p>{Math.round(weather.main.temp)}°C</p>
+        </div>
+      ) : (
+        " "
+      )}
     </div>
   );
 }
