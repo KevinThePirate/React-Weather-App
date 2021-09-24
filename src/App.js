@@ -56,18 +56,6 @@ function App() {
     }
 
     let desc = weatherForStyle;
-    //console.log({ weather });
-    //console.log({ param });
-    /*if (typeof weather.main === "undefined") {
-      setClassList("App other-weather");
-      console.log(weather.main);
-      console.log("undeff");
-    } else {
-      console.log("deffed");
-      console.log({ test });
-      //desc = weather.weather[0].description;
-    }
-    console.log({ desc });*/
 
     if (desc.includes("sun") || desc.includes("clear")) {
       setClassList("App sunny");
