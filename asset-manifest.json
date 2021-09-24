@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec218f55.chunk.css",
-    "main.js": "/static/js/main.36180c84.chunk.js",
-    "main.js.map": "/static/js/main.36180c84.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d6ee8c65.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d6ee8c65.js.map",
-    "static/js/2.d8c94a11.chunk.js": "/static/js/2.d8c94a11.chunk.js",
-    "static/js/2.d8c94a11.chunk.js.map": "/static/js/2.d8c94a11.chunk.js.map",
-    "static/js/3.69b0ff03.chunk.js": "/static/js/3.69b0ff03.chunk.js",
-    "static/js/3.69b0ff03.chunk.js.map": "/static/js/3.69b0ff03.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ec218f55.chunk.css.map": "/static/css/main.ec218f55.chunk.css.map",
-    "static/js/2.d8c94a11.chunk.js.LICENSE.txt": "/static/js/2.d8c94a11.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/React-Weather-App/static/css/main.ec218f55.chunk.css",
+    "main.js": "/React-Weather-App/static/js/main.36180c84.chunk.js",
+    "main.js.map": "/React-Weather-App/static/js/main.36180c84.chunk.js.map",
+    "runtime-main.js": "/React-Weather-App/static/js/runtime-main.2bfbc70b.js",
+    "runtime-main.js.map": "/React-Weather-App/static/js/runtime-main.2bfbc70b.js.map",
+    "static/js/2.d8c94a11.chunk.js": "/React-Weather-App/static/js/2.d8c94a11.chunk.js",
+    "static/js/2.d8c94a11.chunk.js.map": "/React-Weather-App/static/js/2.d8c94a11.chunk.js.map",
+    "static/js/3.69b0ff03.chunk.js": "/React-Weather-App/static/js/3.69b0ff03.chunk.js",
+    "static/js/3.69b0ff03.chunk.js.map": "/React-Weather-App/static/js/3.69b0ff03.chunk.js.map",
+    "index.html": "/React-Weather-App/index.html",
+    "static/css/main.ec218f55.chunk.css.map": "/React-Weather-App/static/css/main.ec218f55.chunk.css.map",
+    "static/js/2.d8c94a11.chunk.js.LICENSE.txt": "/React-Weather-App/static/js/2.d8c94a11.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/React-Weather-App/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d6ee8c65.js",
+    "static/js/runtime-main.2bfbc70b.js",
     "static/js/2.d8c94a11.chunk.js",
     "static/css/main.ec218f55.chunk.css",
     "static/js/main.36180c84.chunk.js"
